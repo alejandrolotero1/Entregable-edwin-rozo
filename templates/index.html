@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Invictus code</title>
+    <script src="https://kit.fontawesome.com/bd6f1f5c74.js" crossorigin="anonymous"></script>
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <nav class="navIndex">
+        <div class="navContenidoIzquierdo">
+            <h2>Invictus Code</h2>
+        </div>
+        <!-- <div class="navContenidoDerecho">
+            <ul>
+                <li><a href="Nosotros.html"><h3>Sobre nosotros</h3></a></li>
+            </ul>
+        </div> -->
+    </nav>
+    <section class="ContenidoSection">
+        <form class="formulario">
+            <img class="userImg" src="/images/user.png">
+            <!-----------------------------Name----------------------------------->
+            <label for="name">Nombre y apellidos</label>
+            <input name="name" type="text" maxlength="50" id="inputNombreCompleto" minlength="10">
+            <div class="errorInputs">
+                <p id="alertaError"></p>
+            </div>
+            <!-----------------------------Tel------------------------------------>
+            <label for="Tel">Telefono</label>
+            <input name="Tel" type="tel" maxlength="10" minlength="9" id="inputPhone">
+            <div class="errorInputsTel">
+                <p id="alertaErrorTelefono"></p>
+            </div>
+            <!----------------------------Email------------------------------------>
+            <label for="correo">Correo electronico</label>
+            <input type="email" name="Tel" id="emailPerson">
+            <div class="errorInputsEmail">
+                <p id="alertaErrorEmail"></p>
+            </div>
+            <!-------------------------Password------------------------------------>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="inputContraseña" maxlength="8">
+            <div class="errorContraseña">
+                <p id="alertaErrorContraseñas"></p>
+            </div>
+            <!-------------------------Password Validate---------------------------->
+            <label for="contraseñaV">Verifique contraseña</label>
+            <input type="password" name="contraseñaV" id="inputContraseñaVerificacion" maxlength="8">
+            <div class="errorContraseñaValidacion">
+                <p id="alertaErrorContraseñasValidacion"></p>
+            </div>
+            <!---------------------------Button------------------------------------->
+            <button id="eventButton" type="button">Registrar</button>
+            <a class="buttonLogin" href="Login.html"><h4>Login</h4></a>
+        </form>
+
+
+        <!-- <div class="Contactanos">
+            <h3>Mas informacion</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i>Cra. 18 #4-2, Armenia, Quindío</li>
+                <li><i class="fas fa-phone-square-alt"></i> 3175598355</li>
+                <li><i class="far fa-envelope"></i>Alejandrolotero004@gmail.com</li>
+                <li> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Recusandae natus omnis rerum ullam sit a sunt libero in.Ea, reprehenderit!</p></li> <br>    
+            </ul>
+        </div> -->
+    </section>
+    <script src="/script/App.js"></script>
+</body>
+</html>

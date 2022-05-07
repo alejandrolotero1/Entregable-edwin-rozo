@@ -1,0 +1,158 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navIndex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100px;
+    background-color: #2C2F33;
+    align-items: center;
+}
+
+.navContenidoIzquierdo h2{
+    color: #fff;
+    margin: 3px 0 3px 0;
+    font-size: 40px;
+}
+
+.ContenidoSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    flex-direction: column;
+
+}
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    border-style: solid;
+    height: 50%;
+}
+
+.formulario input{
+    width: 50%;
+}
+
+.userImg{
+    width: 25%;
+    margin-bottom: 10px;
+}
+/*---------------------Name-----------------------*/
+.errorInputs{
+    width: 50%;
+    /* visibility: hidden; */
+}
+.errorInputs p{
+    color: rgb(246, 87, 87);
+    text-align: left;
+    font-size: 15px;
+}
+/*---------------------Tel-----------------------*/
+.errorInputsTel{
+    width: 50%;
+}
+
+.errorInputsTel p{
+    color: rgb(246, 87, 87);
+    text-align: left;
+    font-size: 13px;
+}
+/*---------------------Email---------------------*/
+.errorInputsEmail{
+    width: 50%;
+}
+
+.errorInputsEmail p{
+    color: rgb(246, 87, 87);
+    text-align: left;
+    font-size: 15px
+}
+/*------------------Password---------------------*/
+.errorContraseña{
+    width: 50%;
+}
+
+.errorContraseña p{
+    color: rgb(246, 87, 87);
+    text-align: left;
+    font-size: 15px
+}
+/*------------------Validate Passport------------*/
+.errorContraseñaValidacion{
+    width: 50%;
+}
+
+.errorContraseñaValidacion p{
+    color: rgb(246, 87, 87);
+    text-align: left;
+    font-size: 15px
+}
+/*-----------------------------------------------*/
+#eventButton{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.buttonLogin{
+    text-decoration: none;
+    color: #2C2F33;
+    font-size: 15px;
+}
+/*-------------------------------------------*/
+
+.contenidoLogin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.formularioLogin{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+
+.formularioLogin input{
+    width: 50%;
+}
+
+
+/* .Contactanos{
+    background-color: #2C2F33;
+    width: 40%;
+    height: 60%;
+    border-style: solid;
+    border-color: #2C2F33;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Contactanos h3{
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.Contactanos ul li{
+    color: #fff;
+    list-style: none;
+    margin-bottom: 20px;
+} */
